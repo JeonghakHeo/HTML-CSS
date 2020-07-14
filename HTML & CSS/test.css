@@ -1,0 +1,77 @@
+header{
+    background-color: red;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+header h1{
+    border: 8px solid white;
+    border-radius: 36px;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome{
+   position: absolute;
+   background-color: orange;
+   color: white;
+   top: 30%;
+   padding: 50px;
+   font-size: 30px;
+}
+.welcome span{
+    font-size: 1.3em;
+}
+nav{
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 100px;
+    
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: black
+}
+nav a.join{
+    color: crimson;
+}
+
+main{
+    margin: 30px 30px;
+}
+article h2{
+    font-size: 30px;
+    color: crimson;
+}
+.images{
+    margin: 80px 0;
+    text-align: center;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+.images li img{
+    max-width: 100%;
+}
